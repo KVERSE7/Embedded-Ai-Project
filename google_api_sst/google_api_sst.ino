@@ -8,7 +8,7 @@ const char* ssid = "Kverse";
 const char* password = "12345678";
 
 // Google Cloud API Key
-const char* apiKey = "AIzaSyDKJ7bcEZ8u4VqzFdpYCfbBgweqSeoKCls";
+const char* apiKey = "My Api Key";
 
 // I2S pins for INMP441
 #define I2S_WS 25
