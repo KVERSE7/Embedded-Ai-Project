@@ -1,3 +1,6 @@
+<img width="645" height="773" alt="image" src="https://github.com/user-attachments/assets/33685ecd-23fb-4970-8ae0-55198167d1c3" />
+
+
 🗣️ Embedded Voice Command Recognition System
 ESP32 + MAX9814 / INMP441 + EdgeImpulse + Google STT + MQTT + IoT Sensors
 
@@ -67,3 +70,4 @@ Additional features:
 4.Automatic cloud upload timer
 
 5.Proper DC offset calibration + AGC
+<img width="645" height="773" alt="Screenshot 2025-12-18 084939" src="https://github.com/user-attachments/assets/d5428b06-d466-4d80-81e4-19bb8959c339" />
