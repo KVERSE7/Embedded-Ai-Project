@@ -34,8 +34,6 @@ Core features:
 
 
 
-
-
 ✔ Phase 2 — Cloud STT + IoT Control + MQTT Uploading
 
 Hardware: ESP32 + INMP441 (I2S), DHT11 sensor, WiFi, Google STT
@@ -44,30 +42,17 @@ Phase 2 is a major upgrade:
 Voice commands are converted into text using Google Speech-to-Text, and then used to control IoT operations.
 
 Supported voice commands:
-
 1."start / on / activate" → Start auto sensor upload every 20 sec
-
 2."stop / off / deactivate" → Stop monitoring
-
 3."read / show / temperature / humidity" → Show sensor data
-
 4."upload / send / publish" → Upload to cloud immediately
-
 5."help" → Display all available commands
-
 Cloud upload uses MQTT → ThingSpeak for live dashboards.
 
 
 Additional features:
-
-
 1.3-second high-quality audio recording (16-bit PCM / I2S)
-
 2.Base64 streaming to Google STT API
-
 3.Automatic DHT11 reading + printing
-
 4.Automatic cloud upload timer
-
 5.Proper DC offset calibration + AGC
-<img width="645" height="773" alt="Screenshot 2025-12-18 084939" src="https://github.com/user-attachments/assets/d5428b06-d466-4d80-81e4-19bb8959c339" />
