@@ -43,16 +43,25 @@ Voice commands are converted into text using Google Speech-to-Text, and then use
 
 Supported voice commands:
 1."start / on / activate" → Start auto sensor upload every 20 sec
+
 2."stop / off / deactivate" → Stop monitoring
+
 3."read / show / temperature / humidity" → Show sensor data
+
 4."upload / send / publish" → Upload to cloud immediately
+
 5."help" → Display all available commands
+
 Cloud upload uses MQTT → ThingSpeak for live dashboards.
 
 
 Additional features:
 1.3-second high-quality audio recording (16-bit PCM / I2S)
+
 2.Base64 streaming to Google STT API
+
 3.Automatic DHT11 reading + printing
+
 4.Automatic cloud upload timer
+
 5.Proper DC offset calibration + AGC
